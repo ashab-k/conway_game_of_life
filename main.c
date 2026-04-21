@@ -4,7 +4,6 @@
 #include "render.h"
 #include "patterns.h"
 
-// Target simulation steps per second (not the same as render FPS)
 #define DEFAULT_SPS 10
 
 int main(void) {
@@ -34,8 +33,9 @@ int main(void) {
     Grid     *grid = grid_create(1);
     Renderer *rend = renderer_create(sdl_r);
 
-    // Start with the Gosper Gun so something interesting happens immediately
-    pattern_load(grid, PATTERN_GOSPER_GUN, -1, -1);
+    srand(time(NULL));
+    int randPattern = rand() % 6; 
+    pattern_load(grid, randPattern , -1, -1);
 
     int running   = 1;
     int paused    = 0;
