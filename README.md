@@ -7,7 +7,8 @@
 An interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) written in C with SDL2. Features color trails, preset patterns, toroidal wrapping, and live mouse drawing.
 
 
-https://github.com/user-attachments/assets/28986825-c481-496c-a3c8-356a64c88fee
+<img width="964" height="750" alt="game_of_life" src="https://github.com/user-attachments/assets/b24b05de-b4f3-4afc-aba5-1e3a9a5016c7" />
+
 
 --- 
 
