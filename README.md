@@ -1,7 +1,15 @@
+
+
+
+
 # Conway's Game of Life
 
-A terminal-free, interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) written in C with SDL2. Features color trails, preset patterns, toroidal wrapping, and live mouse drawing.
+An interactive implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) written in C with SDL2. Features color trails, preset patterns, toroidal wrapping, and live mouse drawing.
 
+
+https://github.com/user-attachments/assets/28986825-c481-496c-a3c8-356a64c88fee
+
+--- 
 
 ## Features
 
