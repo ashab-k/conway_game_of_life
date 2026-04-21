@@ -55,11 +55,11 @@ int main(void) {
     printf("  Escape     — quit\n");
 
     // Main event + game loop
-    // ITERATION: this loop runs once per frame for the lifetime of the program
+    // this loop runs once per frame for the lifetime of the program
     while (running) {
         SDL_Event e;
 
-        // ITERATION: drain the SDL event queue each frame
+        // drain the SDL event queue each frame
         while (SDL_PollEvent(&e)) {
             switch (e.type) {
                 case SDL_QUIT:
@@ -119,7 +119,7 @@ int main(void) {
         }
 
         // Advance simulation at the chosen steps-per-second rate
-        // ITERATION: time-based step trigger inside the frame loop
+        // time-based step trigger inside the frame loop
         if (!paused) {
             Uint32 now = SDL_GetTicks();
             Uint32 interval = 1000 / sps;
